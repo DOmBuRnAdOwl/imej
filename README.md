@@ -9,11 +9,15 @@
 
 
 ## Provided output drivers
+
 - frame export as PPM images
 ![many utah teapots](./pots.png)
+
 - terminal ascii render
 ![teapot drawn in a terminal](./term.png)
+
 - X11 gui
 ![3D sin wave plot](./sinGraph.png)
+
 - microbit tft display 
 ![running on a microbit](./microbit.jpg)
