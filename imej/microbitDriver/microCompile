@@ -1,0 +1,35 @@
+#! /bin/sh
+cp codal.json ../microbit/microbit-v2-samples/
+cp ../src/camera.c  ../microbit/microbit-v2-samples/source/src
+cp ../src/input.c   ../microbit/microbit-v2-samples/source/src
+cp ../src/matrix.c  ../microbit/microbit-v2-samples/source/src
+cp ../src/object.c  ../microbit/microbit-v2-samples/source/src
+cp ../src/objectListArray.c  ../microbit/microbit-v2-samples/source/src
+cp ../src/project.c ../microbit/microbit-v2-samples/source/src
+cp ../src/raster.c  ../microbit/microbit-v2-samples/source/src
+cp ../src/scene.c   ../microbit/microbit-v2-samples/source/src
+cp ../src/translation.c ../microbit/microbit-v2-samples/source/src
+cp ../src/vector.c ../microbit/microbit-v2-samples/source/src
+
+
+cp ../include/camera.h ../microbit/microbit-v2-samples/source/include
+cp ../include/imej.h ../microbit/microbit-v2-samples/source/include
+cp ../include/input.h ../microbit/microbit-v2-samples/source/include
+cp ../include/matrix.h ../microbit/microbit-v2-samples/source/include
+cp ../include/object.h ../microbit/microbit-v2-samples/source/include
+cp ../include/projection.h ../microbit/microbit-v2-samples/source/include
+cp ../include/raster.h ../microbit/microbit-v2-samples/source/include
+cp ../include/scene.h ../microbit/microbit-v2-samples/source/include
+cp ../include/translation.h ../microbit/microbit-v2-samples/source/include
+cp ../include/colour.h ../microbit/microbit-v2-samples/source/include/colour.h
+cp ../include/vectors.h ../microbit/microbit-v2-samples/source/include
+cp ../include/window.h ../microbit/microbit-v2-samples/source/include
+
+cp ../extras/cube.h ../microbit/microbit-v2-samples/source/include
+
+cp microWindow.cpp ../microbit/microbit-v2-samples/source/src
+cp main.c ../microbit/microbit-v2-samples/source/main.c
+cp Adafruit_ST7735.cpp ../microbit/microbit-v2-samples/source/
+cp Adafruit_ST7735.h ../microbit/microbit-v2-samples/source
+cp Adafruit_ST77xx.cpp ../microbit/microbit-v2-samples/source
+cp Adafruit_ST77xx.h ../microbit/microbit-v2-samples/source
